@@ -1,4 +1,4 @@
-module github.com/zhou1203/gopackage-test
+module github.com/zhou1203/gopackagetest
 
 go 1.20
 
