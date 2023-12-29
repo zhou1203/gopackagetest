@@ -1,7 +1,9 @@
 package myprint
 
-import "fmt"
+import (
+	"github.com/sirupsen/logrus"
+)
 
 func Print(str string) {
-	fmt.Printf("This message from myprint: %s", str)
+	logrus.Info("Hello World")
 }
